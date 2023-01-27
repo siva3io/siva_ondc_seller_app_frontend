@@ -1,0 +1,202 @@
+.ticket_card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  gap: "12";
+  color: whitesmoke;
+
+  position: relative;
+  width: 95%;
+  /* width: 310px; */
+  /* height: 238px; */
+  left: 0px;
+  top: 0px;
+  margin: 5px;
+  background: #ffffff;
+  border-radius: 8px 0px 8px 8px;
+  border: 2px solid;
+
+  box-shadow: 0px 4px 8px rgb(0 0 0 / 10%);
+  border-radius: 16px;
+}
+
+.ticket_card_details {
+  padding: 20px;
+  width: 100%;
+  border: 5px;
+}
+
+.ribbon_cut {
+  /* top: 0; */
+  right: -12.5px;
+  top: 4.8px;
+  background-color: white;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  /* left: 15px; */
+  transform: rotate(45deg);
+  margin: 0px;
+}
+
+.order_no {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 28px;
+  letter-spacing: 0.15px;
+
+  /* Secondary color/Vibe Blue */
+
+  color: #001661;
+}
+
+.button_design {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.4px;
+
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 10px;
+
+  /* width: 56px; */
+  height: 15px;
+
+  /* Badges/ baby pink */
+
+  background: #0168b5;
+  border-radius: 32px;
+  border: none;
+}
+
+.title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 12px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  /* Black/73 Black */
+
+  color: #b9b9b9;
+}
+
+.details {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.5px;
+
+  /* Black/18 Black */
+
+  color: #2e2e2e;
+}
+
+.ticket_profile {
+  display: flex;
+}
+
+.profile_img {
+  margin: auto 0;
+}
+
+.tickets_wrapper {
+  display: flex;
+  width: 100%;
+  background: white;
+  border-radius: 8px;
+}
+
+.tickets_left_wrapper {
+  width: 55%;
+  padding: 45px;
+}
+
+.tickets_right_wrapper {
+  width: 45%;
+  text-align: center;
+  margin: auto;
+}
+
+.tickets_right_wrapper img {
+  width: 550px;
+}
+
+.profile_heading {
+  margin: auto 0;
+}
+
+.profile_img img {
+  width: 75px;
+}
+
+.select_ticket {
+  width: 100% !important;
+}
+
+.field {
+  margin: 25px 0px;
+  display: flex;
+  row-gap: 10px;
+  flex-direction: column;
+}
+
+.ticket_actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.tickets-top-text {
+  background: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/* ------------------------------------------------------------------- */
+
+.promotionsCard-grid {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 16px;
+}
+
+
+/*
+ Copyright (C) 2022 Eunimart Omnichannel Pvt Ltd. (www.eunimart.com)
+ All rights reserved.
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License v3.0 as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU Lesser General Public License v3.0 for more details.
+ You should have received a copy of the GNU Lesser General Public License v3.0
+ along with this program.  If not, see <https://www.gnu.org/licenses/lgpl-3.0.html/>.
+*/

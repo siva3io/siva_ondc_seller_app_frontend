@@ -1,0 +1,13 @@
+{"version":3,"sources":["Notification.scss","Notification.css"],"names":[],"mappings":"AAGE;EAEA,kBAAA;EAEF,YAAA;EACA,YAAA;EAEA,sBAAA;EACA,kBAAA;EACA,gBAAA;EACA,eAAA;EACA,iBAAA;EACA,4BAAA;EAEA,6BAAA;EACA,cAAA;EAGA,uBAAA;EACA,UAAA;EACA,QAAA;EACA,YAAA;ACRA;;ADaA;EAEA,sBAAA;EACA,kBAAA;EACA,gBAAA;EACA,eAAA;EACA,iBAAA;EACA,4BAAA;EACA,sBAAA;ACXA;;ADgBA;EACA,oBAAA;EACA,kBAAA;EACA,gBAAA;EACA,eAAA;EACA,iBAAA;EACA,qBAAA;ACbA;;ADiBA;EACA,oBAAA;EACA,kBAAA;EACA,gBAAA;EACA,eAAA;EACA,iBAAA;EACA,qBAAA;EACA,cAAA;ACdA;;ADmBA;EACI,wBAAA;AChBJ;;ADkBA;EACI,aAAA;ACfJ","file":"Notification.css",   "//": "Copyright (C) 2022 Eunimart Omnichannel Pvt Ltd. (www.eunimart.com)",
+"//": "All rights reserved.",
+"//": "This program is free software: you can redistribute it and/or modify",
+"//": "it under the terms of the GNU Lesser General Public License v3.0 as published by",
+"//": "the Free Software Foundation, either version 3 of the License, or",
+"//": "(at your option) any later version.",
+"//": "This program is distributed in the hope that it will be useful,",
+"//": "but WITHOUT ANY WARRANTY; without even the implied warranty of",
+"//": "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the",
+"//": "GNU Lesser General Public License v3.0 for more details.",
+"//": "You should have received a copy of the GNU Lesser General Public License v3.0",
+"//": "along with this program.  If not, see <https://www.gnu.org/licenses/lgpl-3.0.html/>."
+}

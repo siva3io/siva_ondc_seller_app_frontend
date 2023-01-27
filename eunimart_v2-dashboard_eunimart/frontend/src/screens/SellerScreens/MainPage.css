@@ -1,0 +1,936 @@
+.dashboard_whole_container {
+    padding: 5px;
+    margin: 16px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    background-color: white;
+}
+
+
+.dashboard_concover {
+    padding: 5px;
+    margin: 16px;
+    box-shadow: 0px 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 16px;
+    background-color: white;
+}
+
+a,
+a:link,
+a:visited,
+a:focus,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+.dashboard_container {
+
+    padding-left: 20px;
+}
+
+.dashboard_footer {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.dashboard_calender {
+    bottom: 2%;
+    position: fixed;
+    padding: 0px 30px;
+}
+
+.dashboard_footer_add_icon {
+    color: #416BFF;
+    bottom: 2%;
+    left: 94%;
+    position: fixed;
+    padding: 0px 30px;
+}
+
+.dashboard_title {
+    height: 24px;
+    left: 96px;
+    top: 101px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 24px;
+    /* identical to box height, or 67% */
+    padding: 10px;
+    margin: 10px 0px;
+    letter-spacing: -0.5px;
+    /* Primary Colors/ Ranger Blue */
+
+    color: #001661;
+}
+
+.current_head {
+    border-bottom: 5px solid #001661;
+    color: black;
+}
+
+.dashboard_sub_heads {
+    display: flex;
+    gap: 20px;
+
+}
+
+.container_2 {
+    margin-top: 20px;
+}
+
+.dashboard_individual_sub_heads {
+    color: #8B8B8B;
+    text-decoration: none;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    /* Black/55 Black */
+
+    color: #8B8B8B;
+
+
+}
+
+.dashboard_individual_head {
+    /* width: 91px; */
+    height: 28px;
+    padding: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 28px;
+    /* identical to box height */
+
+    text-decoration: none;
+    /* Black/55 Black */
+
+    color: red;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+
+
+a:active,
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.dashboard_subtitle_2 {
+
+    /* identical to box height, or 67% */
+    /* padding: 10px; */
+    margin: 20px 20px 14px;
+    letter-spacing: -0.5px;
+    width: 401.59px;
+    height: 35px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 34px;
+    /* identical to box height */
+
+
+    /* Black/18 Black */
+
+    color: #2E2E2E;
+}
+
+.dashboard_business_metrics_subtitle {
+    /* padding: 10px; */
+    margin: 20px 20px 14px;
+    letter-spacing: -0.5px;
+    width: 401.59px;
+    height: 35px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 34px;
+    /* identical to box height */
+
+
+    /* Black/18 Black */
+
+    color: #001661;
+}
+
+.dashboard_table_head,
+.dashboard_calender {
+    height: 29px;
+    /* Material design/Heading H6 */
+    margin: 25px 0px 0px 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 28px;
+    /* identical to box height */
+
+    letter-spacing: 0.15px;
+
+    /* Secondary color/Vibe Blue */
+
+    color: #416BFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.dashboard_table_head_container {
+    display: flex;
+    border-bottom: 1px solid #cecccc;
+}
+
+.content {
+    color: #5D5D5D;
+    margin: 10px 0px;
+}
+
+.box_1 {
+    width: 70%;
+
+}
+
+.box_2,
+.box_3,
+.box_4 {
+    width: 10%;
+}
+
+.dashboard_table {
+    display: flex;
+    border-bottom: 1px solid #cecccc;
+
+}
+
+.dashboard_current_tab {
+    color: #416BFF;
+}
+
+.dashboard_goals_title {
+    width: 401.59px;
+    height: 35px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 34px;
+    /* identical to box height */
+
+
+    /* Black/18 Black */
+
+    color: #2E2E2E;
+
+    padding-left: 30px;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.dashboard_goals_boxes {
+    display: flex;
+    padding: 30px;
+    /* width: 100%; */
+    flex-direction: row;
+    gap: 20px;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.dashboard_goals_container {
+    box-sizing: border-box;
+    width: 500px;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    /* padding: 16px; */
+    gap: 0px;
+
+    max-width: 400px;
+    height: 200px;
+
+    background: #FFFFFF;
+    /* Black/55 Black */
+
+    border: 1px solid #DADFE5;
+    border-radius: 14px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.dashboard_pierate_container {
+    border: none;
+    width: 500px;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    /* padding: 16px; */
+    gap: 0px;
+    height: 150px;
+    background: #FFFFFF;
+
+
+
+}
+
+
+.dashboard_goals_data {
+
+    width: 200px;
+    height: 74.66px;
+    /* text-align: center; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 1px;
+
+    /* Black/55 Black */
+
+    color: #8B8B8B;
+    margin-top: 20%;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.dashboard_metrics_data {
+    height: 74.66px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 1px;
+
+    /* Black/55 Black */
+
+    color: #8B8B8B;
+
+}
+
+.dashboard_goals_tags {
+    height: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+    /* Black/18 Black */
+
+    color: #2E2E2E;
+
+    margin: 0px;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.dashboard_goals_tags_container {
+    display: flex;
+    gap: 5px;
+}
+
+.dashboard_goals_icon1 {
+    color: #72AB3A;
+}
+
+.dashboard_goals_icon2 {
+    color: #416BFF;
+}
+
+.dashboard_pie_container {
+    position: inherit;
+    padding-left: 25%;
+    padding-top: 5%;
+    font-size: 50px;
+
+}
+
+.dashboard_pie_chart {
+    position: inherit;
+}
+
+.dashboard_pie_value {
+
+    position: absolute;
+    width: 113.65px;
+    height: 26.81px;
+    left: 218.13px;
+    top: 243.6px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 16px;
+    /* or 47% */
+
+    text-align: center;
+    letter-spacing: 0.25px;
+
+    /* Black/36 Black */
+
+    color: #5D5D5D;
+
+}
+
+.dashboard_selected_element {
+    width: 69px;
+    height: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Black/18 Black */
+
+    color: #2E2E2E;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.dashboard_reports_container {
+    box-sizing: border-box;
+    margin: 3px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    /* gap: 10px; */
+
+    background: #FFFFFF;
+}
+
+.dashboard_reports_icon_color {
+    padding-top: 4%;
+}
+
+.dashboard_reports_whole_container {
+    border: 1px solid #DADFE5;
+    border-radius: 14px;
+}
+
+.dashboard_reports_head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboard_reports_icon {
+    padding: 25px 20px 20px 0px;
+    color: #72AB3A;
+}
+
+
+.dashboard_multipie_details {
+    margin-top: 10%;
+    padding: 10px;
+}
+
+.dashboard_metrics_multipie_details {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+}
+
+.dashboard_multipie_details_list {
+    width: 50%;
+    padding-top: 10px;
+}
+
+.dashboard_metrics_multipie_details_names {
+    text-align: left;
+    /* width: 100px; */
+}
+
+.dashboard_metrics_multipie_details {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 10px;
+    line-height: 25px;
+    /* identical to box height */
+    display: flex;
+    text-align: center;
+    /* width: 120px; */
+
+    color: rgba(25, 28, 29, 0.6);
+}
+
+.dashboard_each_detail {
+
+
+    /* Material design/caption 2 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: rgba(25, 28, 29, 0.6);
+}
+
+.dashboard_each_detail {
+    display: flex;
+    gap: 10px;
+}
+
+.dashboard_reports_calling_Container {
+    display: flex;
+    gap: 2%;
+    padding-left: 30px;
+    flex-wrap: wrap;
+
+}
+
+.dashboard_report_headings_each {
+    padding-left: 5%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 34px;
+    color: #2E2E2E;
+}
+
+.dashboard_each_report_container {
+    min-width: 48%;
+
+}
+
+.dashboard_metrics_headings_each {
+    padding-left: 5%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 34px;
+    color: #001661;
+}
+
+.dashboard_reports_icon_metrics {
+    padding-top: 4%;
+}
+
+
+.dashboard_onboarding_head {
+    padding: 2px 10px;
+    margin: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 34px;
+    color: #2E2E2E;
+}
+
+.dashboard_reports_search_field {
+    margin: 30px 0px 10px 30px;
+    width: 60%;
+    border-radius: 5px;
+    border: 1px solid #9e9c9c;
+    padding: 10px;
+}
+
+.dashboard_widgets_title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 34px;
+    /* identical to box height */
+
+
+    /* Black/18 Black */
+
+    color: #2E2E2E;
+
+    padding-left: 30px;
+
+
+}
+
+.dashboard_widget_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    /* text-align: center; */
+
+    /* Black/18 Black */
+
+    color: #2E2E2E;
+
+}
+
+.dashboard_widget_description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+    /* Black/18 Black */
+
+    color: #2E2E2E;
+}
+
+.dashboard_widget {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 24px;
+    gap: 24px;
+
+    width: 270px;
+    height: 60px;
+
+    /* Tertiary Button/Pressed fill */
+
+    background: rgba(222, 228, 253, 0.5);
+    /* Bottom shadow */
+
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.dashboard_widgets_container {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.dashboard_widget_content {
+    justify-content: flex-start
+}
+
+.dashboard_widget_icon {
+    color: #416BFF;
+}
+
+.widget_icon {}
+
+
+.dashboard_business_metrics {
+    padding: 10px 30px;
+    width: 75%;
+}
+
+.dashboard_input_field {
+    width: 100%;
+    height: 29px;
+    padding: 5px 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    border: none;
+    /* Black/36 Black */
+    /* border-radius: 4px;
+    border: 1px solid #c7c7c7; */
+    color: #c7c7c7;
+}
+
+.dashboard_bargraph_container {
+    margin: 10px 0px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #DADFE5;
+    color: #c7c7c7;
+}
+
+.dashboard_businees_metrics_page {
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 10px;
+}
+
+.dashboard_metrics_input_field {
+    display: flex;
+    border-radius: 4px;
+    border: 1px solid #c7c7c7;
+    width: 102%;
+}
+
+.dashboard_input_field_icon {
+    padding: 10px;
+}
+
+.dashboard_bargraph_category {
+    display: flex;
+    border: 1px solid #c7c7c7;
+    justify-content: space-between;
+    width: 22%;
+    height: 10%;
+    padding: 5px;
+    margin: 5px;
+    color: #8B8B8B;
+    background-color: #D1D1D180;
+    border-radius: 6px;
+
+}
+
+.dashboard_bargraph_each_category {
+    border-radius: 4px;
+    padding: 0px 5px;
+}
+
+.category_bar {
+    border-right: 2px solid;
+    border-radius: 0px;
+}
+
+.dashboard_title_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboard_bargraph_selected {
+    color: white;
+    background-color: #001661;
+}
+
+.dashboard_business_metrics_piecharts {
+    width: 88%;
+    /* height: 10%; */
+    padding: 5px 10px;
+    border-radius: 14px;
+    border: 1px solid #D1D1D180;
+    margin: 10px 0px;
+}
+
+.metrics_page_chart {
+    height: 30px;
+}
+
+.dashboard_business_metrics_right_side {
+    width: 35%;
+    gap: 50px;
+    height: 20%;
+    /* margin-top: 3%; */
+}
+
+.dashboard_onboarding_metrics {
+    position: absolute;
+    left: 65%;
+    background-color: white;
+    border: 1px solid #eae4e4;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+}
+
+.dashboard_onboarding_button {
+    padding-top: 0%;
+    padding-left: 60%;
+    color: #416BFF;
+    border: none;
+    background-color: white;
+
+}
+
+.icontext {
+    display: flex;
+    gap: 10px;
+}
+
+.dashboard_check_button {
+    border: none;
+    background-color: white;
+}
+
+.dashboard_appstore_button {
+    color: #416BFF;
+    background-color: white;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    letter-spacing: 0.5px;
+}
+
+.dashboard_explore_products {
+
+    background-color: white;
+    /* width: 27%; */
+    min-width: 410px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 10%);
+    border-radius: 16px;
+    padding: 5px;
+    margin-left: 5px;
+    height: 10%;
+}
+
+.dashboard_explore_products_title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    /* identical to box height */
+    /* padding-left: 10px; */
+    letter-spacing: 0.25px;
+    margin: 0px;
+    /* Primary Colors/ Ranger Blue */
+
+    color: #001661;
+}
+
+.dashboard_addproduct_division {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px;
+    gap: 15px;
+    /* min-width: 400px; */
+    /* width: 37%; */
+    min-height: 150px;
+
+    background: #74B9FF;
+    border-radius: 16px;
+}
+
+.dashboard_neworder_division {
+
+    background-color: black;
+    width: 27%;
+    min-height: 150px;
+    color: white;
+    /* transition: 1s; */
+    padding: 24px;
+    border-radius: 16px;
+}
+
+
+.dashboard_add_product_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    gap: 8px;
+
+    width: 141px;
+    height: 40px;
+
+    /* Primary Colors/ Ranger Blue */
+    color: white;
+    background: #001661;
+    border-radius: 4px;
+}
+
+.dashboard_view_orders_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    gap: 8px;
+
+    width: 141px;
+    height: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.5px;
+
+    /* Primary Colors/ Ranger Blue */
+    background: white;
+    border-radius: 4px;
+}
+
+/*
+ Copyright (C) 2022 Eunimart Omnichannel Pvt Ltd. (www.eunimart.com)
+ All rights reserved.
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License v3.0 as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU Lesser General Public License v3.0 for more details.
+ You should have received a copy of the GNU Lesser General Public License v3.0
+ along with this program.  If not, see <https://www.gnu.org/licenses/lgpl-3.0.html/>.
+*/

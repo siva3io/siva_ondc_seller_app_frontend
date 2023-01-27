@@ -1,0 +1,113 @@
+.wrapper1 {
+    height: 100vh;
+    position: relative;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+.main_heading h1{
+    font-size: 35px;
+    color : white;
+}
+
+.staticFormCardTitle{
+    display: none !important;
+}
+
+.features_contact {
+    width: 90%;
+    margin: 0px 30px;
+}
+
+.locationDetailsMain {
+    box-shadow: none !important;
+    margin: 0 !important;
+    padding-top : 0 !important;
+}
+
+.product-staticFormCardForm{
+    grid-template-columns: 32% 32% 32% !important;
+    grid-gap: 5px 15px !important;
+}
+
+.build_for_you_content_wrapper h2{
+    color : #001661;
+}
+
+.build_for_you_content_wrapper p{
+    color : #001661 !important;
+    margin-bottom: 0 !important;
+}
+
+.main_heading p{
+    color : #f9f9f9;
+}
+
+/* html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+} */
+
+html, 
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0; 
+    padding: 0;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.main_heading{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.main_heading p {
+    margin : 20px 0px
+}
+
+.main_button_wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.build_for_you_content_wrapper {
+    background: white;
+    padding: 20px 0px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.textfield_contact{
+    width : 325px;
+}
+
+/*
+ Copyright (C) 2022 Eunimart Omnichannel Pvt Ltd. (www.eunimart.com)
+ All rights reserved.
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License v3.0 as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU Lesser General Public License v3.0 for more details.
+ You should have received a copy of the GNU Lesser General Public License v3.0
+ along with this program.  If not, see <https://www.gnu.org/licenses/lgpl-3.0.html/>.
+*/

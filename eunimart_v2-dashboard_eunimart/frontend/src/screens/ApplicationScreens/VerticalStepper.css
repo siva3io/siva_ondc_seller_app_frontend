@@ -1,0 +1,116 @@
+.step {
+  position: relative;
+  min-height: 1em;
+  color: gray;
+}
+
+.title {
+  line-height: 1.5em;
+  font-weight: bold;
+}
+
+.caption {
+  font-size: 0.8em;
+}
+
+.circle {
+  /* background: gray; */
+
+  border: 2px solid #001661;
+  position: relative;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  border-radius: 100%;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 0 0 3px #fff;
+}
+
+.circle:after {
+  content: " ";
+  position: absolute;
+  display: block;
+  top: 1px;
+  right: 50%;
+  bottom: 1px;
+  left: 50%;
+  height: 100%;
+  width: 1px;
+  transform: scale(1, 2);
+  transform-origin: 50% -100%;
+  background-color: rgba(0, 0, 0, 0.25);
+  z-index: -1;
+}
+
+.type_container img {
+  width: 110px;
+  height: 110px;
+  cursor: pointer;
+}
+
+.type_container {
+  width: 250px;
+  background: rgb(255, 255, 255);
+  /* filter: drop-shadow(rgba(0, 0, 0, 0.1) 0px 2px 2px); */
+  filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 5px 5px);
+  padding: 20px;
+  text-align: center;
+  margin: 0px 10px;
+  border-radius: 13px;
+  height: fit-content;
+}
+
+.type_wrapper {
+  display: flex;
+}
+
+#btn-upload {
+  width: 200px !important;
+  font-size: 15px !important;
+  padding: 5px 0px !important;
+  border: 1px solid white;
+}
+
+.labelWrap {
+  width: 0 !important;
+}
+
+.result_container {
+  width: 115px;
+  background: rgb(255, 255, 255);
+  /* filter: drop-shadow(rgba(0, 0, 0, 0.1) 0px 2px 2px); */
+  filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 5px 5px);
+  padding: 20px;
+  text-align: center;
+  margin: 0px 10px;
+  border-radius: 13px;
+}
+
+.result_wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.result_container img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+/*
+ Copyright (C) 2022 Eunimart Omnichannel Pvt Ltd. (www.eunimart.com)
+ All rights reserved.
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License v3.0 as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU Lesser General Public License v3.0 for more details.
+ You should have received a copy of the GNU Lesser General Public License v3.0
+ along with this program.  If not, see <https://www.gnu.org/licenses/lgpl-3.0.html/>.
+*/

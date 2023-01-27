@@ -1,0 +1,242 @@
+.inputWrapper {
+  align-items: center;
+  display: flex;
+  height: 34px;
+  padding: 0;
+  width: 100%;
+}
+
+.labelWrap21 {
+  padding: 12px 16px 12px 0;
+  /* width: 280px; */
+}
+
+.input_wrap,
+.packageDimension {
+  display: flex;
+  flex-direction: column;
+}
+
+.input_wrap {
+  width: 100%;
+}
+
+.label {
+  align-items: center;
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.checkboxLabelWrap,
+.radioLabelWrap {
+  align-items: center;
+  display: flex;
+  padding: 12px 0;
+}
+
+.checkboxLabelWrap {
+  width: 31%;
+}
+.product-checkboxFieldSub {
+  margin-top: 4px;
+  width: 100%;
+}
+.product-checkboxFieldMain {
+  align-items: center;
+  display: flex;
+  padding: 0;
+}
+
+.radioLabelWrap {
+  width: 30%;
+}
+.checkboxLabelWrap,
+.radioLabelWrap {
+  align-items: center;
+  display: flex;
+  padding: 12px 0;
+}
+.labelWrap21 .label {
+  font-family: Poppins;
+  width: 100% !important;
+}
+
+.accordin-main {
+  margin-top: 20px;
+}
+
+.clstextarea {
+  color: currentColor;
+  padding: 4px 0 5px;
+  border: 0;
+  box-sizing: content-box;
+  background: none;
+  height: 1.4375em;
+  margin: 0;
+  display: block;
+  min-width: 0;
+  width: 85%;
+  padding-top: 1px;
+  padding: 8.5px 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* ----------------------------------------------------------------------------------------- */
+
+li {
+  list-style: none;
+  /* margin: 1.2em 0; */
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 0.7em 1.5em;
+}
+li svg {
+  color: #f55321;
+}
+li svg:first-child {
+  /* font-size: 1.2em; */
+  margin-right: 0.8em;
+}
+li p {
+  flex: 1;
+  font-size: 0.9rem;
+}
+li .actions {
+  justify-self: flex-end;
+  cursor: pointer;
+}
+li .actions .fa-spinner {
+  font-size: 1.2em;
+}
+
+.delIcon:hover {
+  scale: 1.2;
+  transition: 0.2s;
+}
+
+.locationDetailsMain {
+  background: #fff;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  margin: 16px 0px;
+  font-family: Poppins;
+  border-radius: 8px;
+}
+.product-staticFormCardForm {
+  display: grid;
+  grid-gap: 8px 30px;
+  grid-template-columns: 49% 49%;
+  align-items: flex-start;
+  margin-top: 16px;
+}
+.staticFormCardTitle {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.15px;
+  color: #121417;
+  /* padding: 16px 0px; */
+}
+.ViewBoxBody {
+  grid-gap: 8px 30px;
+  align-items: center;
+  margin-top: 16px;
+}
+.payment-details-wrapper {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.payment-details-wrapper .left-details {
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 47%;
+}
+.payment-details-wrapper .right-details {
+  float: right;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 47%;
+}
+.left-details .top-label {
+  background: #f7f7f7;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #000;
+  margin: 0 0 15px;
+}
+.left-details .top-label .price {
+  font-weight: 600;
+  float: right;
+  color: #111183;
+}
+.left-details .use-credit {
+  font-size: 14px;
+  padding: 15px;
+}
+.left-details .use-credit input {
+  margin-left: 20px;
+}
+.totail-box {
+  border: 1px solid #0173ff;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+.sub-total {
+  margin: 0 0 15px;
+  font-size: 14px;
+}
+.sub-total .price {
+  float: right;
+}
+.right-form select,
+.right-form input {
+  width: auto;
+  display: inline-block;
+  padding: 12px 12px 12px 16px;
+}
+.right-form input {
+  margin-left: 10px;
+}
+.right-form input:last-child {
+  float: right;
+}
+.total-footer {
+  padding-top: 15px;
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+  color: #0173ff;
+  font-size: 16px;
+}
+.total-footer .price {
+  float: right;
+}
+.product_required_mark{
+  color: red;
+}
+
+
+/*
+ Copyright (C) 2022 Eunimart Omnichannel Pvt Ltd. (www.eunimart.com)
+ All rights reserved.
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License v3.0 as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU Lesser General Public License v3.0 for more details.
+ You should have received a copy of the GNU Lesser General Public License v3.0
+ along with this program.  If not, see <https://www.gnu.org/licenses/lgpl-3.0.html/>.
+*/

@@ -1,0 +1,137 @@
+.dashboard_whole_order_card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: "12";
+    color: black;
+
+    position: relative;
+    width: 310px;
+    /* height: 238px; */
+    left: 0px;
+    top: 0px;
+    /* margin: 10px; */
+    background: #FFFFFF;
+    border-radius: 8px 0px 8px 8px;
+
+
+}
+
+
+
+.dashboard_order_card_timer {
+    border-radius: 8px 0px 0px 0px;
+    position: relative;
+    height: 15px;
+    background-color: red;
+    width: 100px;
+    display: flex;
+    padding: 10px;
+}
+
+.dashboard_order_card_details {
+    padding: 8px 24px 24px;
+    width: 85%;
+}
+
+.ribbon_cut {
+    /* top: 0; */
+    right: -12.5px;
+    top: 4.8px;
+    background-color: white;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    /* left: 15px; */
+    transform: rotate(45deg);
+    margin: 0px;
+}
+
+.order_no {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 28px;
+    letter-spacing: 0.15px;
+
+    /* Secondary color/Vibe Blue */
+
+    color: #416BFF;
+
+}
+
+.button_design {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.4px;
+
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 10px;
+
+    width: 56px;
+    height: 15px;
+
+    /* Badges/ baby pink */
+
+    background: #FC817C;
+    border-radius: 32px;
+    border: none;
+}
+
+.title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 12px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    /* Black/73 Black */
+
+    color: #B9B9B9;
+}
+
+.details {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.5px;
+
+    /* Black/18 Black */
+
+    color: #2E2E2E;
+}
+
+/*
+ Copyright (C) 2022 Eunimart Omnichannel Pvt Ltd. (www.eunimart.com)
+ All rights reserved.
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License v3.0 as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU Lesser General Public License v3.0 for more details.
+ You should have received a copy of the GNU Lesser General Public License v3.0
+ along with this program.  If not, see <https://www.gnu.org/licenses/lgpl-3.0.html/>.
+*/
